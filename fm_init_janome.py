@@ -11,6 +11,6 @@ def janome_tokenizer_provided_via_user_files_init(txt: str) -> list[str]:
 
 def janome_tokenizers_provider() -> list[tuple[str, Callable]]:
 
-    return [("ja", janome_tokenizer_provided_via_user_file_init)]
+    return [("ja", janome_tokenizer_provided_via_user_files_init)]
 
 
